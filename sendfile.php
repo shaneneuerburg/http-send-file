@@ -78,7 +78,7 @@ class sendfile
      */
     public function send($file_path, $withDisposition=TRUE) {
         
-        if (!is_readable($file_path)) {
+        if (!file_exists($file_path)) {
             throw new \Exception('File not found or inaccessible!');
         }
 
