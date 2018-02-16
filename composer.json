@@ -1,5 +1,5 @@
 {
-    "name": "diversen/http-send-file",
+    "name": "shaneneuerburg/http-send-file",
     "type": "library",
     "description": "Sends a file to a client, with support for (multiple) range requests. It is also able to throttle the download.",
     "homepage": "http://github.com/diversen/http-send-file",
